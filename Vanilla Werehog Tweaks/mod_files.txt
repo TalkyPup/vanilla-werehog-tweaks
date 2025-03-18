@@ -1,1 +1,3 @@
+add +#SystemCommon.ar.00
+add +#SystemCommon.arl
 add mod.ini
