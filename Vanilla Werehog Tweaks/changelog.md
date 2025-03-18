@@ -1,6 +1,3 @@
-## Vanilla Werehog Tweaks v1.1.1
-- Just testing the update server. Fixed a typo in this changelog.
-
 ## Vanilla Werehog Tweaks v1.1
 - The enemy jump height increase actually works now.
 - Increased the speed at which those sticks Sonic can grab (pachinko) fling Sonic forward.
