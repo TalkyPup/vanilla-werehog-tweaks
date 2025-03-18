@@ -8,5 +8,5 @@
 - The XML comments were originally for my own sake, but they're now much more comprehensive to help other modders know what's what.
 - Created an update server.
 
-## Vanilla Werehog Tweaks v1.0
+## Vanilla Werehog Tweaks v1.0.0
 - First release.
