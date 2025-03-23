@@ -1,5 +1,13 @@
+## Vanilla Werehog Tweaks v1.2.0
+- Added configs. Tweak presets can be chosen from on the HMM configure menu.
+- Moved main mod files to the "All Tweaks" tweak preset folder.
+- Added "No skips" preset. This setting excludes tweaks that can or could result in skips, such as the increased grab length and double jump height.
+- Added "Walking only" preset. This setting excludes all tweaks, except for tweaks to walking speeds and analog stick values.
+- Added "controller compatibility" versions of all presets. These settings revert the minimum "SlowWalk" and "Run" stick values to the game's default, preventing issues with certain analog sticks.
+- Updates to some XML comments. Comments will only be complete in the "all" config.
+
 ## Vanilla Werehog Tweaks v1.1.1
-- Testing the update server. Fixed a typo in this changlog.
+- Testing the update server. Fixed a typo in this changelog.
 
 ## Vanilla Werehog Tweaks v1.1.0
 - The enemy jump height increase actually works now.
