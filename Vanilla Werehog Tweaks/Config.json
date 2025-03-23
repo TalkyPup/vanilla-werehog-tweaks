@@ -1,0 +1,87 @@
+{
+   "Groups":[
+      {
+         "Name":"Main",
+         "DisplayName":"Configuration",
+         "Elements":
+         [
+			{
+               "Name":"IncludeDir0",
+               "DisplayName":"Tweak preset",
+               "Description":[
+                  "Set which tweaks to the Werehog's controls are enabled or disabled.",
+				  "",
+				  "(Note: Tweaks can not be enabled or disabled individually via HMM configs due to them all existing in the same file. Each preset swaps out the file for an entirely new one with a different set of tweaks.)",
+               ],
+               "Type":"Dir0",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"0"
+            },
+         ]
+      }
+   ],
+   "Enums":{
+      "Dir0":[
+         {
+            "DisplayName":"All",
+            "Value":"all",
+            "Description":[
+               "Enables all of the mod's included tweaks.",
+            ]
+         },
+		 {
+            "DisplayName":"All (controller compatibility)",
+            "Value":"all_con",
+            "Description":[
+               "Enables all of the mod's included tweaks, but reverts the minimum and maximum analog stick values to the default to increase controller compatibility.",
+			   "",
+			   "Only recommended if the Werehog sometimes moves too slowly for you when pushing the stick all of the way, or if he moves on his own when not pushing the stick at all.",
+            ]
+         },
+		 {
+            "DisplayName":"No skips",
+            "Value":"noskip",
+            "Description":[
+               "Enables most tweaks, but in order to lower the possibility of skipping minor parts of the levels, the following are NOT tweaked:",
+			   "",
+			   "- Double jump height",
+			   "- Enemy jump height",
+			   "- Climbable object grab range",
+            ]
+         },
+		 {
+            "DisplayName":"No skips (controller compatibility)",
+            "Value":"noskip_con",
+            "Description":[
+               "Enables most tweaks, but in order to lower the possibility of skipping minor parts of the levels, the following are NOT tweaked:",
+			   "",
+			   "- Double jump height",
+			   "- Enemy jump height",
+			   "- Climbable object grab range",
+			   "",
+			   "Also reverts the minimum and maximum analog stick values to the default to increase controller compatibility.",
+			   "",
+			   "Only recommended if the Werehog sometimes moves too slowly for you when pushing the stick all of the way, or if he moves on his own when not pushing the stick at all.",
+            ]
+         },
+		 {
+            "DisplayName":"Walking only",
+            "Value":"walk",
+            "Description":[
+               "Tweaks walking speeds and analog stick values only.",
+            ]
+         },
+		 {
+            "DisplayName":"Walking only (controller compatibility)",
+            "Value":"walk_con",
+            "Description":[
+               "Tweaks walking speeds and analog stick values only, but reverts the minimum and maximum analog stick values to the default to increase controller compatibility.",
+			   "",
+			   "Only recommended if the Werehog sometimes moves too slowly for you when pushing the stick all of the way, or if he moves on his own when not pushing the stick at all.",
+            ]
+         },
+      ],
+   },
+   "IniFile":"mod.ini"
+}
